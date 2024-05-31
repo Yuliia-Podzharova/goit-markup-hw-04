@@ -78,6 +78,7 @@ align-items: center;
 .nav-list-item-studio{
     position: relative; 
     color: #404bbf;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     
 }
 .nav-list-item-studio::after {
@@ -130,6 +131,7 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: #434455;
     cursor:pointer;
+    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list-item-link:hover,
 .address-list-item-link:focus {
@@ -244,7 +246,16 @@ width: calc((100% - 72px) / 4)
     color: #434455;
 }
 .qualities-icons{
-
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  min-width: 264px;
+  margin-bottom: 8px;
+  
 }
 .qualities-icons-list{
 
@@ -275,6 +286,7 @@ width:calc ((100% - 3 * 24) / 4);
     border-radius: 0 0 4px 4px;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 
 .team-title{
@@ -315,14 +327,25 @@ width:calc ((100% - 3 * 24) / 4);
  
 }
 .social-media-item{
-
+    width: 40px;
+    height: 40px;
 }
 .social-media-link{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius:50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
-
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: #404bbf;
+}
 .social-media-icon{
-
+    fill:#f4f4fd;
 }
 /* --------------portfolio----------- */
 .container-portfolio{
@@ -359,8 +382,18 @@ padding-bottom: 120px;
  row-gap: 48px;
 }  
 .portfolio-list-item{
-    background-color: #FFFFFF
+    background-color: #FFFFFF   
     
+}
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0);
+}
+.portfolio-list-item:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 .portfolio-subtitle{
     font-weight: 500;
