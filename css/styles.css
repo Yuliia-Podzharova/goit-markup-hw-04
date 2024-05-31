@@ -116,12 +116,19 @@ gap: 40px;
 /* ---------hero--------- */
 .container-hero{
 padding: 188px 472px;
+
 }
 .hero{
     background-color: #2e2f42;
     font-weight: 700;
     font-size: 56px;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+     url(../images/peopleoffice.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+
 }
 .hero-title{
     font-size: 56px;
@@ -212,6 +219,13 @@ width: calc((100% - 72px) / 4)
     letter-spacing: 0.02em;
     color: #434455;
 }
+.qualities-icons{
+
+}
+.qualities-icons-list{
+
+
+}
 /* ---------our team--------- */
 .team{
     padding: 120px 0;
@@ -268,7 +282,23 @@ width:calc ((100% - 3 * 24) / 4);
     text-align: center;
     color: #434455;
 }
+.social-media-list{
+    display:flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: calc((100%-3*24)/4);
+ 
+}
+.social-media-item{
 
+}
+.social-media-link{
+
+}
+.social-media-icon{
+
+}
 /* --------------portfolio----------- */
 .container-portfolio{
 padding-top: 120px;
