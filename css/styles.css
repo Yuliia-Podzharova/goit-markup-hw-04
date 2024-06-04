@@ -325,6 +325,7 @@ width:calc ((100% - 3 * 24) / 4);
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 .social-media-list{
     display:flex;  
@@ -349,12 +350,14 @@ width:calc ((100% - 3 * 24) / 4);
     justify-content: center; 
     width: 40px;
 }
+
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: #404bbf;
 }
 .social-media-icon{
     fill:#f4f4fd;
+
 }
 /* --------------portfolio----------- */
 .container-portfolio{
